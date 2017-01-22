@@ -1,5 +1,5 @@
 import unittest
-import Dice.Dice as Dice
+import Calcs.Dice as Dice
 
 
 class TestDieRolls(unittest.TestCase):

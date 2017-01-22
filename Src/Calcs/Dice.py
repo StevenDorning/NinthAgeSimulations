@@ -1,7 +1,5 @@
 import random
 
-
-
 class Dice(object):
 
     def __init__(self, numSides):
@@ -37,8 +35,6 @@ class Dice(object):
         result =  tmp[ignoreNLowest:  len(allDice)  - ignoreNHighest]
 
         return result
-
-
 
 class SingleDiceGroup(object):
 
